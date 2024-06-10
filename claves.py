@@ -5,7 +5,7 @@ import uuid     #for creating universally unique identifiers
 from flask import Flask, request
 app = Flask(__name__) #Be sure to use two underscores before and after "name"
 
-db_name = 'test.db' 
+db_name = 'test.db'  
 
 @app.route('/')
 def index():
